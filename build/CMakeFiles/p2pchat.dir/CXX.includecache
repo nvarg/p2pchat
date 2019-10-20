@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/natan/Projects/429/p2pchat/src/chat.cpp
+chat.h
+/home/natan/Projects/429/p2pchat/src/chat.h
+memory
+-
+iostream
+-
+experimental/coroutine
+-
+boost/asio.hpp
+-
+
+/home/natan/Projects/429/p2pchat/src/chat.h
+
+/home/natan/Projects/429/p2pchat/src/client.cpp
+client.h
+/home/natan/Projects/429/p2pchat/src/client.h
+
+/home/natan/Projects/429/p2pchat/src/client.h
+functional
+-
+sstream
+-
+string
+-
+unordered_map
+-
+
+/home/natan/Projects/429/p2pchat/src/listener.cpp
+
+/home/natan/Projects/429/p2pchat/src/main.cpp
+sstream
+-
+iostream
+-
+chat.h
+/home/natan/Projects/429/p2pchat/src/chat.h
+
