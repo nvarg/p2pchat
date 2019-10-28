@@ -5,9 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/natan/Projects/429/p2pchat/src/chat.cpp" "/home/natan/Projects/429/p2pchat/build/CMakeFiles/p2pchat.dir/src/chat.cpp.o"
-  "/home/natan/Projects/429/p2pchat/src/client.cpp" "/home/natan/Projects/429/p2pchat/build/CMakeFiles/p2pchat.dir/src/client.cpp.o"
-  "/home/natan/Projects/429/p2pchat/src/listener.cpp" "/home/natan/Projects/429/p2pchat/build/CMakeFiles/p2pchat.dir/src/listener.cpp.o"
   "/home/natan/Projects/429/p2pchat/src/main.cpp" "/home/natan/Projects/429/p2pchat/build/CMakeFiles/p2pchat.dir/src/main.cpp.o"
+  "/home/natan/Projects/429/p2pchat/src/peer.cpp" "/home/natan/Projects/429/p2pchat/build/CMakeFiles/p2pchat.dir/src/peer.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 

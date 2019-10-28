@@ -4,11 +4,12 @@
 CMakeFiles/p2pchat.dir/src/chat.cpp.o
  /home/natan/Projects/429/p2pchat/src/chat.cpp
  /home/natan/Projects/429/p2pchat/src/chat.h
-CMakeFiles/p2pchat.dir/src/client.cpp.o
- /home/natan/Projects/429/p2pchat/src/client.cpp
- /home/natan/Projects/429/p2pchat/src/client.h
-CMakeFiles/p2pchat.dir/src/listener.cpp.o
- /home/natan/Projects/429/p2pchat/src/listener.cpp
+ /home/natan/Projects/429/p2pchat/src/myip.hpp
+ /home/natan/Projects/429/p2pchat/src/peer.h
 CMakeFiles/p2pchat.dir/src/main.cpp.o
  /home/natan/Projects/429/p2pchat/src/chat.h
  /home/natan/Projects/429/p2pchat/src/main.cpp
+ /home/natan/Projects/429/p2pchat/src/peer.h
+CMakeFiles/p2pchat.dir/src/peer.cpp.o
+ /home/natan/Projects/429/p2pchat/src/peer.cpp
+ /home/natan/Projects/429/p2pchat/src/peer.h

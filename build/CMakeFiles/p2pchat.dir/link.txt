@@ -1,1 +1,1 @@
-/usr/bin/clang++    -rdynamic CMakeFiles/p2pchat.dir/src/chat.cpp.o CMakeFiles/p2pchat.dir/src/client.cpp.o CMakeFiles/p2pchat.dir/src/listener.cpp.o CMakeFiles/p2pchat.dir/src/main.cpp.o  -o p2pchat /usr/lib64/libboost_system.a 
+/usr/bin/clang++  -std=c++1z -O3 -fcoroutines-ts -stdlib=libc++  -rdynamic CMakeFiles/p2pchat.dir/src/chat.cpp.o CMakeFiles/p2pchat.dir/src/peer.cpp.o CMakeFiles/p2pchat.dir/src/main.cpp.o  -o p2pchat -lpthread /usr/lib64/libboost_system.a 

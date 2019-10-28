@@ -70,35 +70,22 @@ CMakeFiles/p2pchat.dir/src/chat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/p2pchat.dir/src/chat.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/natan/Projects/429/p2pchat/src/chat.cpp -o CMakeFiles/p2pchat.dir/src/chat.cpp.s
 
-CMakeFiles/p2pchat.dir/src/client.cpp.o: CMakeFiles/p2pchat.dir/flags.make
-CMakeFiles/p2pchat.dir/src/client.cpp.o: ../src/client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/natan/Projects/429/p2pchat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/p2pchat.dir/src/client.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/p2pchat.dir/src/client.cpp.o -c /home/natan/Projects/429/p2pchat/src/client.cpp
+CMakeFiles/p2pchat.dir/src/peer.cpp.o: CMakeFiles/p2pchat.dir/flags.make
+CMakeFiles/p2pchat.dir/src/peer.cpp.o: ../src/peer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/natan/Projects/429/p2pchat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/p2pchat.dir/src/peer.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/p2pchat.dir/src/peer.cpp.o -c /home/natan/Projects/429/p2pchat/src/peer.cpp
 
-CMakeFiles/p2pchat.dir/src/client.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/p2pchat.dir/src/client.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/natan/Projects/429/p2pchat/src/client.cpp > CMakeFiles/p2pchat.dir/src/client.cpp.i
+CMakeFiles/p2pchat.dir/src/peer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/p2pchat.dir/src/peer.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/natan/Projects/429/p2pchat/src/peer.cpp > CMakeFiles/p2pchat.dir/src/peer.cpp.i
 
-CMakeFiles/p2pchat.dir/src/client.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/p2pchat.dir/src/client.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/natan/Projects/429/p2pchat/src/client.cpp -o CMakeFiles/p2pchat.dir/src/client.cpp.s
-
-CMakeFiles/p2pchat.dir/src/listener.cpp.o: CMakeFiles/p2pchat.dir/flags.make
-CMakeFiles/p2pchat.dir/src/listener.cpp.o: ../src/listener.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/natan/Projects/429/p2pchat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/p2pchat.dir/src/listener.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/p2pchat.dir/src/listener.cpp.o -c /home/natan/Projects/429/p2pchat/src/listener.cpp
-
-CMakeFiles/p2pchat.dir/src/listener.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/p2pchat.dir/src/listener.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/natan/Projects/429/p2pchat/src/listener.cpp > CMakeFiles/p2pchat.dir/src/listener.cpp.i
-
-CMakeFiles/p2pchat.dir/src/listener.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/p2pchat.dir/src/listener.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/natan/Projects/429/p2pchat/src/listener.cpp -o CMakeFiles/p2pchat.dir/src/listener.cpp.s
+CMakeFiles/p2pchat.dir/src/peer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/p2pchat.dir/src/peer.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/natan/Projects/429/p2pchat/src/peer.cpp -o CMakeFiles/p2pchat.dir/src/peer.cpp.s
 
 CMakeFiles/p2pchat.dir/src/main.cpp.o: CMakeFiles/p2pchat.dir/flags.make
 CMakeFiles/p2pchat.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/natan/Projects/429/p2pchat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/p2pchat.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/natan/Projects/429/p2pchat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/p2pchat.dir/src/main.cpp.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/p2pchat.dir/src/main.cpp.o -c /home/natan/Projects/429/p2pchat/src/main.cpp
 
 CMakeFiles/p2pchat.dir/src/main.cpp.i: cmake_force
@@ -112,21 +99,19 @@ CMakeFiles/p2pchat.dir/src/main.cpp.s: cmake_force
 # Object files for target p2pchat
 p2pchat_OBJECTS = \
 "CMakeFiles/p2pchat.dir/src/chat.cpp.o" \
-"CMakeFiles/p2pchat.dir/src/client.cpp.o" \
-"CMakeFiles/p2pchat.dir/src/listener.cpp.o" \
+"CMakeFiles/p2pchat.dir/src/peer.cpp.o" \
 "CMakeFiles/p2pchat.dir/src/main.cpp.o"
 
 # External object files for target p2pchat
 p2pchat_EXTERNAL_OBJECTS =
 
 p2pchat: CMakeFiles/p2pchat.dir/src/chat.cpp.o
-p2pchat: CMakeFiles/p2pchat.dir/src/client.cpp.o
-p2pchat: CMakeFiles/p2pchat.dir/src/listener.cpp.o
+p2pchat: CMakeFiles/p2pchat.dir/src/peer.cpp.o
 p2pchat: CMakeFiles/p2pchat.dir/src/main.cpp.o
 p2pchat: CMakeFiles/p2pchat.dir/build.make
 p2pchat: /usr/lib64/libboost_system.a
 p2pchat: CMakeFiles/p2pchat.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/natan/Projects/429/p2pchat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable p2pchat"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/natan/Projects/429/p2pchat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable p2pchat"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/p2pchat.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

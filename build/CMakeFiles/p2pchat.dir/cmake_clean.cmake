@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/p2pchat.dir/src/chat.cpp.o"
-  "CMakeFiles/p2pchat.dir/src/client.cpp.o"
-  "CMakeFiles/p2pchat.dir/src/listener.cpp.o"
   "CMakeFiles/p2pchat.dir/src/main.cpp.o"
+  "CMakeFiles/p2pchat.dir/src/peer.cpp.o"
   "p2pchat"
   "p2pchat.pdb"
 )

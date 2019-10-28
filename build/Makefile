@@ -150,60 +150,6 @@ src/chat.cpp.s:
 	$(MAKE) -f CMakeFiles/p2pchat.dir/build.make CMakeFiles/p2pchat.dir/src/chat.cpp.s
 .PHONY : src/chat.cpp.s
 
-src/client.o: src/client.cpp.o
-
-.PHONY : src/client.o
-
-# target to build an object file
-src/client.cpp.o:
-	$(MAKE) -f CMakeFiles/p2pchat.dir/build.make CMakeFiles/p2pchat.dir/src/client.cpp.o
-.PHONY : src/client.cpp.o
-
-src/client.i: src/client.cpp.i
-
-.PHONY : src/client.i
-
-# target to preprocess a source file
-src/client.cpp.i:
-	$(MAKE) -f CMakeFiles/p2pchat.dir/build.make CMakeFiles/p2pchat.dir/src/client.cpp.i
-.PHONY : src/client.cpp.i
-
-src/client.s: src/client.cpp.s
-
-.PHONY : src/client.s
-
-# target to generate assembly for a file
-src/client.cpp.s:
-	$(MAKE) -f CMakeFiles/p2pchat.dir/build.make CMakeFiles/p2pchat.dir/src/client.cpp.s
-.PHONY : src/client.cpp.s
-
-src/listener.o: src/listener.cpp.o
-
-.PHONY : src/listener.o
-
-# target to build an object file
-src/listener.cpp.o:
-	$(MAKE) -f CMakeFiles/p2pchat.dir/build.make CMakeFiles/p2pchat.dir/src/listener.cpp.o
-.PHONY : src/listener.cpp.o
-
-src/listener.i: src/listener.cpp.i
-
-.PHONY : src/listener.i
-
-# target to preprocess a source file
-src/listener.cpp.i:
-	$(MAKE) -f CMakeFiles/p2pchat.dir/build.make CMakeFiles/p2pchat.dir/src/listener.cpp.i
-.PHONY : src/listener.cpp.i
-
-src/listener.s: src/listener.cpp.s
-
-.PHONY : src/listener.s
-
-# target to generate assembly for a file
-src/listener.cpp.s:
-	$(MAKE) -f CMakeFiles/p2pchat.dir/build.make CMakeFiles/p2pchat.dir/src/listener.cpp.s
-.PHONY : src/listener.cpp.s
-
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -231,6 +177,33 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/p2pchat.dir/build.make CMakeFiles/p2pchat.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/peer.o: src/peer.cpp.o
+
+.PHONY : src/peer.o
+
+# target to build an object file
+src/peer.cpp.o:
+	$(MAKE) -f CMakeFiles/p2pchat.dir/build.make CMakeFiles/p2pchat.dir/src/peer.cpp.o
+.PHONY : src/peer.cpp.o
+
+src/peer.i: src/peer.cpp.i
+
+.PHONY : src/peer.i
+
+# target to preprocess a source file
+src/peer.cpp.i:
+	$(MAKE) -f CMakeFiles/p2pchat.dir/build.make CMakeFiles/p2pchat.dir/src/peer.cpp.i
+.PHONY : src/peer.cpp.i
+
+src/peer.s: src/peer.cpp.s
+
+.PHONY : src/peer.s
+
+# target to generate assembly for a file
+src/peer.cpp.s:
+	$(MAKE) -f CMakeFiles/p2pchat.dir/build.make CMakeFiles/p2pchat.dir/src/peer.cpp.s
+.PHONY : src/peer.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -243,15 +216,12 @@ help:
 	@echo "... src/chat.o"
 	@echo "... src/chat.i"
 	@echo "... src/chat.s"
-	@echo "... src/client.o"
-	@echo "... src/client.i"
-	@echo "... src/client.s"
-	@echo "... src/listener.o"
-	@echo "... src/listener.i"
-	@echo "... src/listener.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/peer.o"
+	@echo "... src/peer.i"
+	@echo "... src/peer.s"
 .PHONY : help
 
 
