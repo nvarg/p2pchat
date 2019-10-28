@@ -1,3 +1,0 @@
-/home/natan/Projects/429/p2pchat/build/CMakeFiles/rebuild_cache.dir
-/home/natan/Projects/429/p2pchat/build/CMakeFiles/p2pchat.dir
-/home/natan/Projects/429/p2pchat/build/CMakeFiles/edit_cache.dir
