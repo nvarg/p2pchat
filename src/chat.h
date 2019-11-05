@@ -23,7 +23,6 @@ namespace p2p
         private:
             awaitable<void> listener(tcp::acceptor);
             awaitable<void> inputStreamer(posix::stream_descriptor);
-            bool isValidPeer(const std::shared_ptr<Peer>) const;
 
             std::istringstream stream;
             void initDispatchTable();

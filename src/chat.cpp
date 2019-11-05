@@ -66,28 +66,8 @@ namespace p2p
                     boost::asio::buffer(read_buf), use_awaitable);
             cmd = std::string(read_buf.data(), n);
             dispatch(cmd);
+            std::fflush(stdout);
         }
-    }
-
-    bool Chat::isValidPeer(const std::shared_ptr<Peer> peer) const
-    {
-            std::printf("test");
-            auto endpoint = peer->remote();
-            std::printf("%hu\t%hu", endpoint.port(), peer->local().port());
-            if(std::find_if(peerList.begin(), peerList.end(), [&endpoint](const auto& p){
-                        return p.second->is_open() && (endpoint == p.second->remote());
-                        }) != peerList.end())
-            {
-                std::fprintf(stderr, "Could not add %s because it is already a peer.\n",
-                        endpoint.address().to_string().c_str());
-                return false;
-            } else if (endpoint == listeningEndpoint)
-            {
-                std::fprintf(stderr, "Could not add %s because it is the local endpoint.\n",
-                        endpoint.address().to_string().c_str());
-                return false;
-            }
-            return true;
     }
 
     void Chat::dispatch(const std::string& cmd)
@@ -147,18 +127,25 @@ exit                             Terminate all the connection with peers on all 
                         stream.ignore(1024, '\n');
                     }
                     tcp::endpoint endpoint{boost::asio::ip::address::from_string(address), port};
-                    if(endpoint != listeningEndpoint)
+                    if((endpoint != listeningEndpoint) && (std::find_if_not(peerList.begin(), peerList.end(), [&endpoint](const auto& p){
+                        if(!p.second->is_open()) return true;
+                        else return p.second->remote() != endpoint;
+                        }) == peerList.end()))
                     {
-                        tcp::socket socket(ioc);
+                        tcp::socket socket{ioc};
                         socket.connect(endpoint);
                         auto peer = std::make_shared<Peer>(std::move(socket));
                         peer->start();
                         peerList.emplace(peerList.size(), std::move(peer));
                     }
+                    else
+                    {
+                        std::puts("That peer is already in the peer list or it is the local listening connection");
+                    }
                 }});
 
         dispatchTable.insert({"list",
-                [&]{ std::printf("id: IP address\tPort No.\n");
+                [&]{ std::printf("id: IP address\t\tPort No.\n");
                 for (const auto& a : peerList)
                 {
                     if(a.second->is_open())
